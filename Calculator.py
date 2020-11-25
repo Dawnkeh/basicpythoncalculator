@@ -1,5 +1,5 @@
-import os
-os.system("color 06")
+from os import system 
+system("color 06")
 x = 1
 y = 1
 op = "1"
@@ -15,6 +15,7 @@ def mult(x, y):
 
 def calc(x, y, op):
     while True:
+        print("                     ")
         print("Select operation.")
         print("1.Add")
         print("2.Subtract")
